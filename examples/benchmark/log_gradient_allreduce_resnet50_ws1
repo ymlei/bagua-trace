@@ -1,0 +1,1814 @@
+2022-05-12 14:45:51,011 INFO:Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 14:45:51,011 INFO:Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 1 nodes.
+2022-05-12 14:45:54,402 INFO:Model: resnet50
+2022-05-12 14:45:54,402 INFO:Batch size: 32
+2022-05-12 14:45:54,403 INFO:Number of GPUs: 1
+2022-05-12 14:45:54,403 INFO:Running warmup...
+2022-05-12 14:45:54,635 INFO:Parameter: fc.bias size: torch.Size([1000])ready to comm
+2022-05-12 14:45:54,635 INFO:Parameter: fc.weight size: torch.Size([1000, 2048])ready to comm
+2022-05-12 14:45:54,638 INFO:Parameter: layer4.2.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:54,638 INFO:Parameter: layer4.2.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:54,659 INFO:Parameter: layer4.2.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:54,659 INFO:Parameter: layer4.2.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,662 INFO:Parameter: layer4.2.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,685 INFO:Parameter: layer4.2.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:54,685 INFO:Parameter: layer4.2.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,686 INFO:Parameter: layer4.2.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,708 INFO:Parameter: layer4.2.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:54,708 INFO:Parameter: layer4.1.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:54,709 INFO:Parameter: layer4.1.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:54,709 INFO:Parameter: layer4.1.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:54,709 INFO:Parameter: layer4.1.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,709 INFO:Parameter: layer4.1.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,709 INFO:Parameter: layer4.1.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:54,710 INFO:Parameter: layer4.1.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,710 INFO:Parameter: layer4.1.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,710 INFO:Parameter: layer4.1.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:54,710 INFO:Parameter: layer4.0.downsample.1.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:54,710 INFO:Parameter: layer4.0.downsample.1.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:54,726 INFO:Parameter: layer4.0.downsample.0.weight size: torch.Size([2048, 1024, 1, 1])ready to comm
+2022-05-12 14:45:54,726 INFO:Parameter: layer4.0.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:54,727 INFO:Parameter: layer4.0.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:54,728 INFO:Parameter: layer4.0.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:54,728 INFO:Parameter: layer4.0.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,728 INFO:Parameter: layer4.0.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,748 INFO:Parameter: layer4.0.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:54,748 INFO:Parameter: layer4.0.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,749 INFO:Parameter: layer4.0.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,770 INFO:Parameter: layer4.0.conv1.weight size: torch.Size([512, 1024, 1, 1])ready to comm
+2022-05-12 14:45:54,770 INFO:Parameter: layer3.5.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,771 INFO:Parameter: layer3.5.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,784 INFO:Parameter: layer3.5.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:54,784 INFO:Parameter: layer3.5.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,785 INFO:Parameter: layer3.5.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,796 INFO:Parameter: layer3.5.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:54,796 INFO:Parameter: layer3.5.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,797 INFO:Parameter: layer3.5.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,807 INFO:Parameter: layer3.5.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:54,807 INFO:Parameter: layer3.4.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,808 INFO:Parameter: layer3.4.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,809 INFO:Parameter: layer3.4.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:54,809 INFO:Parameter: layer3.4.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,809 INFO:Parameter: layer3.4.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,809 INFO:Parameter: layer3.4.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:54,809 INFO:Parameter: layer3.4.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,810 INFO:Parameter: layer3.4.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,810 INFO:Parameter: layer3.4.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:54,810 INFO:Parameter: layer3.3.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,811 INFO:Parameter: layer3.3.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,811 INFO:Parameter: layer3.3.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:54,811 INFO:Parameter: layer3.3.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,812 INFO:Parameter: layer3.3.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,812 INFO:Parameter: layer3.3.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:54,813 INFO:Parameter: layer3.3.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,814 INFO:Parameter: layer3.3.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,814 INFO:Parameter: layer3.3.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:54,814 INFO:Parameter: layer3.2.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,814 INFO:Parameter: layer3.2.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,814 INFO:Parameter: layer3.2.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:54,814 INFO:Parameter: layer3.2.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,814 INFO:Parameter: layer3.2.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,815 INFO:Parameter: layer3.2.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:54,815 INFO:Parameter: layer3.2.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,816 INFO:Parameter: layer3.2.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,816 INFO:Parameter: layer3.2.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:54,816 INFO:Parameter: layer3.1.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,816 INFO:Parameter: layer3.1.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,816 INFO:Parameter: layer3.1.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:54,817 INFO:Parameter: layer3.1.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,818 INFO:Parameter: layer3.1.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,818 INFO:Parameter: layer3.1.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:54,819 INFO:Parameter: layer3.1.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,819 INFO:Parameter: layer3.1.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,819 INFO:Parameter: layer3.1.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:54,819 INFO:Parameter: layer3.0.downsample.1.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,819 INFO:Parameter: layer3.0.downsample.1.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,829 INFO:Parameter: layer3.0.downsample.0.weight size: torch.Size([1024, 512, 1, 1])ready to comm
+2022-05-12 14:45:54,829 INFO:Parameter: layer3.0.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,830 INFO:Parameter: layer3.0.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:54,831 INFO:Parameter: layer3.0.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:54,832 INFO:Parameter: layer3.0.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,832 INFO:Parameter: layer3.0.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,844 INFO:Parameter: layer3.0.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:54,844 INFO:Parameter: layer3.0.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,845 INFO:Parameter: layer3.0.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,861 INFO:Parameter: layer3.0.conv1.weight size: torch.Size([256, 512, 1, 1])ready to comm
+2022-05-12 14:45:54,862 INFO:Parameter: layer2.3.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,862 INFO:Parameter: layer2.3.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,872 INFO:Parameter: layer2.3.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:54,873 INFO:Parameter: layer2.3.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,874 INFO:Parameter: layer2.3.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,885 INFO:Parameter: layer2.3.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:54,885 INFO:Parameter: layer2.3.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,886 INFO:Parameter: layer2.3.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,896 INFO:Parameter: layer2.3.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:54,896 INFO:Parameter: layer2.2.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,897 INFO:Parameter: layer2.2.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,897 INFO:Parameter: layer2.2.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:54,898 INFO:Parameter: layer2.2.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,898 INFO:Parameter: layer2.2.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,898 INFO:Parameter: layer2.2.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:54,899 INFO:Parameter: layer2.2.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,899 INFO:Parameter: layer2.2.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,899 INFO:Parameter: layer2.2.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:54,900 INFO:Parameter: layer2.1.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,900 INFO:Parameter: layer2.1.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,900 INFO:Parameter: layer2.1.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:54,900 INFO:Parameter: layer2.1.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,901 INFO:Parameter: layer2.1.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,901 INFO:Parameter: layer2.1.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:54,902 INFO:Parameter: layer2.1.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,902 INFO:Parameter: layer2.1.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,902 INFO:Parameter: layer2.1.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:54,902 INFO:Parameter: layer2.0.downsample.1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,902 INFO:Parameter: layer2.0.downsample.1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,915 INFO:Parameter: layer2.0.downsample.0.weight size: torch.Size([512, 256, 1, 1])ready to comm
+2022-05-12 14:45:54,916 INFO:Parameter: layer2.0.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,917 INFO:Parameter: layer2.0.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:54,918 INFO:Parameter: layer2.0.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:54,918 INFO:Parameter: layer2.0.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,918 INFO:Parameter: layer2.0.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,929 INFO:Parameter: layer2.0.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:54,929 INFO:Parameter: layer2.0.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,930 INFO:Parameter: layer2.0.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:54,956 INFO:Parameter: layer2.0.conv1.weight size: torch.Size([128, 256, 1, 1])ready to comm
+2022-05-12 14:45:54,956 INFO:Parameter: layer1.2.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,957 INFO:Parameter: layer1.2.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:54,973 INFO:Parameter: layer1.2.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:54,974 INFO:Parameter: layer1.2.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:54,974 INFO:Parameter: layer1.2.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:54,991 INFO:Parameter: layer1.2.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:54,991 INFO:Parameter: layer1.2.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:54,991 INFO:Parameter: layer1.2.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,018 INFO:Parameter: layer1.2.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,019 INFO:Parameter: layer1.1.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,020 INFO:Parameter: layer1.1.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,020 INFO:Parameter: layer1.1.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,021 INFO:Parameter: layer1.1.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,021 INFO:Parameter: layer1.1.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,022 INFO:Parameter: layer1.1.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,022 INFO:Parameter: layer1.1.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,022 INFO:Parameter: layer1.1.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,022 INFO:Parameter: layer1.1.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,022 INFO:Parameter: layer1.0.downsample.1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,023 INFO:Parameter: layer1.0.downsample.1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,023 INFO:Parameter: layer1.0.downsample.0.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,024 INFO:Parameter: layer1.0.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,026 INFO:Parameter: layer1.0.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,026 INFO:Parameter: layer1.0.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,026 INFO:Parameter: layer1.0.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,026 INFO:Parameter: layer1.0.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,026 INFO:Parameter: layer1.0.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,026 INFO:Parameter: layer1.0.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,027 INFO:Parameter: layer1.0.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,038 INFO:Parameter: layer1.0.conv1.weight size: torch.Size([64, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,038 INFO:Parameter: bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,040 INFO:Parameter: bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,049 INFO:Parameter: conv1.weight size: torch.Size([64, 3, 7, 7])ready to comm
+2022-05-12 14:45:55,049 INFO:backward pass is done, wait for comm
+2022-05-12 14:45:55,050 INFO:Comm finished
+2022-05-12 14:45:55,052 INFO:BatchIdx: 0 TrainLoss: 7.222670
+2022-05-12 14:45:55,103 INFO:Parameter: fc.bias size: torch.Size([1000])ready to comm
+2022-05-12 14:45:55,103 INFO:Parameter: fc.weight size: torch.Size([1000, 2048])ready to comm
+2022-05-12 14:45:55,104 INFO:Parameter: layer4.2.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,105 INFO:Parameter: layer4.2.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,105 INFO:Parameter: layer4.2.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,105 INFO:Parameter: layer4.2.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,105 INFO:Parameter: layer4.2.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,105 INFO:Parameter: layer4.2.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,106 INFO:Parameter: layer4.2.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,106 INFO:Parameter: layer4.2.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,106 INFO:Parameter: layer4.2.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,106 INFO:Parameter: layer4.1.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,106 INFO:Parameter: layer4.1.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,107 INFO:Parameter: layer4.1.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,107 INFO:Parameter: layer4.1.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,107 INFO:Parameter: layer4.1.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,108 INFO:Parameter: layer4.1.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,108 INFO:Parameter: layer4.1.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,108 INFO:Parameter: layer4.1.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,108 INFO:Parameter: layer4.1.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,109 INFO:Parameter: layer4.0.downsample.1.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,110 INFO:Parameter: layer4.0.downsample.1.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,110 INFO:Parameter: layer4.0.downsample.0.weight size: torch.Size([2048, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,111 INFO:Parameter: layer4.0.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,111 INFO:Parameter: layer4.0.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,111 INFO:Parameter: layer4.0.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,111 INFO:Parameter: layer4.0.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,111 INFO:Parameter: layer4.0.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,112 INFO:Parameter: layer4.0.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,112 INFO:Parameter: layer4.0.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,112 INFO:Parameter: layer4.0.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,113 INFO:Parameter: layer4.0.conv1.weight size: torch.Size([512, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,113 INFO:Parameter: layer3.5.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,113 INFO:Parameter: layer3.5.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,113 INFO:Parameter: layer3.5.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,113 INFO:Parameter: layer3.5.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,113 INFO:Parameter: layer3.5.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,114 INFO:Parameter: layer3.5.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,114 INFO:Parameter: layer3.5.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,114 INFO:Parameter: layer3.5.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,115 INFO:Parameter: layer3.5.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,115 INFO:Parameter: layer3.4.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,115 INFO:Parameter: layer3.4.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,115 INFO:Parameter: layer3.4.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,116 INFO:Parameter: layer3.4.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,116 INFO:Parameter: layer3.4.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,116 INFO:Parameter: layer3.4.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,116 INFO:Parameter: layer3.4.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,117 INFO:Parameter: layer3.4.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,117 INFO:Parameter: layer3.4.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,117 INFO:Parameter: layer3.3.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,117 INFO:Parameter: layer3.3.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,118 INFO:Parameter: layer3.3.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,118 INFO:Parameter: layer3.3.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,118 INFO:Parameter: layer3.3.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,119 INFO:Parameter: layer3.3.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,119 INFO:Parameter: layer3.3.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,119 INFO:Parameter: layer3.3.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,120 INFO:Parameter: layer3.3.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,120 INFO:Parameter: layer3.2.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,121 INFO:Parameter: layer3.2.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,121 INFO:Parameter: layer3.2.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,121 INFO:Parameter: layer3.2.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,121 INFO:Parameter: layer3.2.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,121 INFO:Parameter: layer3.2.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,121 INFO:Parameter: layer3.2.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,121 INFO:Parameter: layer3.2.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,122 INFO:Parameter: layer3.2.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,123 INFO:Parameter: layer3.1.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,123 INFO:Parameter: layer3.1.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,123 INFO:Parameter: layer3.1.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,123 INFO:Parameter: layer3.1.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,123 INFO:Parameter: layer3.1.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,123 INFO:Parameter: layer3.1.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,124 INFO:Parameter: layer3.1.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,124 INFO:Parameter: layer3.1.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,124 INFO:Parameter: layer3.1.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,125 INFO:Parameter: layer3.0.downsample.1.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,125 INFO:Parameter: layer3.0.downsample.1.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,125 INFO:Parameter: layer3.0.downsample.0.weight size: torch.Size([1024, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,125 INFO:Parameter: layer3.0.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,126 INFO:Parameter: layer3.0.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,126 INFO:Parameter: layer3.0.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,126 INFO:Parameter: layer3.0.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,126 INFO:Parameter: layer3.0.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,126 INFO:Parameter: layer3.0.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,127 INFO:Parameter: layer3.0.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,127 INFO:Parameter: layer3.0.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,128 INFO:Parameter: layer3.0.conv1.weight size: torch.Size([256, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,128 INFO:Parameter: layer2.3.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,128 INFO:Parameter: layer2.3.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,128 INFO:Parameter: layer2.3.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,129 INFO:Parameter: layer2.3.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,129 INFO:Parameter: layer2.3.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,129 INFO:Parameter: layer2.3.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,129 INFO:Parameter: layer2.3.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,129 INFO:Parameter: layer2.3.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,130 INFO:Parameter: layer2.3.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,130 INFO:Parameter: layer2.2.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,130 INFO:Parameter: layer2.2.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,131 INFO:Parameter: layer2.2.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,131 INFO:Parameter: layer2.2.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,131 INFO:Parameter: layer2.2.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,131 INFO:Parameter: layer2.2.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,131 INFO:Parameter: layer2.2.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,132 INFO:Parameter: layer2.2.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,132 INFO:Parameter: layer2.2.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,133 INFO:Parameter: layer2.1.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,133 INFO:Parameter: layer2.1.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,133 INFO:Parameter: layer2.1.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,133 INFO:Parameter: layer2.1.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,134 INFO:Parameter: layer2.1.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,134 INFO:Parameter: layer2.1.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,134 INFO:Parameter: layer2.1.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,134 INFO:Parameter: layer2.1.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,134 INFO:Parameter: layer2.1.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,135 INFO:Parameter: layer2.0.downsample.1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,135 INFO:Parameter: layer2.0.downsample.1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,135 INFO:Parameter: layer2.0.downsample.0.weight size: torch.Size([512, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,136 INFO:Parameter: layer2.0.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,136 INFO:Parameter: layer2.0.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,137 INFO:Parameter: layer2.0.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,137 INFO:Parameter: layer2.0.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,137 INFO:Parameter: layer2.0.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,137 INFO:Parameter: layer2.0.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,138 INFO:Parameter: layer2.0.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,138 INFO:Parameter: layer2.0.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,139 INFO:Parameter: layer2.0.conv1.weight size: torch.Size([128, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,139 INFO:Parameter: layer1.2.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,139 INFO:Parameter: layer1.2.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,140 INFO:Parameter: layer1.2.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,140 INFO:Parameter: layer1.2.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,140 INFO:Parameter: layer1.2.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,140 INFO:Parameter: layer1.2.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,140 INFO:Parameter: layer1.2.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,140 INFO:Parameter: layer1.2.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,141 INFO:Parameter: layer1.2.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,141 INFO:Parameter: layer1.1.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,141 INFO:Parameter: layer1.1.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,142 INFO:Parameter: layer1.1.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,142 INFO:Parameter: layer1.1.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,142 INFO:Parameter: layer1.1.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,142 INFO:Parameter: layer1.1.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,142 INFO:Parameter: layer1.1.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,143 INFO:Parameter: layer1.1.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,143 INFO:Parameter: layer1.1.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,143 INFO:Parameter: layer1.0.downsample.1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,144 INFO:Parameter: layer1.0.downsample.1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,144 INFO:Parameter: layer1.0.downsample.0.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,144 INFO:Parameter: layer1.0.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,145 INFO:Parameter: layer1.0.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,145 INFO:Parameter: layer1.0.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,146 INFO:Parameter: layer1.0.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,146 INFO:Parameter: layer1.0.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,146 INFO:Parameter: layer1.0.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,146 INFO:Parameter: layer1.0.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,146 INFO:Parameter: layer1.0.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,146 INFO:Parameter: layer1.0.conv1.weight size: torch.Size([64, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,146 INFO:Parameter: bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,147 INFO:Parameter: bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,147 INFO:Parameter: conv1.weight size: torch.Size([64, 3, 7, 7])ready to comm
+2022-05-12 14:45:55,147 INFO:backward pass is done, wait for comm
+2022-05-12 14:45:55,174 INFO:Comm finished
+2022-05-12 14:45:55,175 INFO:BatchIdx: 1 TrainLoss: 6.558059
+2022-05-12 14:45:55,182 INFO:Parameter: fc.bias size: torch.Size([1000])ready to comm
+2022-05-12 14:45:55,182 INFO:Parameter: fc.weight size: torch.Size([1000, 2048])ready to comm
+2022-05-12 14:45:55,182 INFO:Parameter: layer4.2.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,183 INFO:Parameter: layer4.2.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,183 INFO:Parameter: layer4.2.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,183 INFO:Parameter: layer4.2.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,184 INFO:Parameter: layer4.2.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,184 INFO:Parameter: layer4.2.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,185 INFO:Parameter: layer4.2.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,185 INFO:Parameter: layer4.2.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,185 INFO:Parameter: layer4.2.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,186 INFO:Parameter: layer4.1.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,186 INFO:Parameter: layer4.1.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,186 INFO:Parameter: layer4.1.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,186 INFO:Parameter: layer4.1.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,186 INFO:Parameter: layer4.1.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,186 INFO:Parameter: layer4.1.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,187 INFO:Parameter: layer4.1.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,187 INFO:Parameter: layer4.1.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,188 INFO:Parameter: layer4.1.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,189 INFO:Parameter: layer4.0.downsample.1.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,189 INFO:Parameter: layer4.0.downsample.1.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,189 INFO:Parameter: layer4.0.downsample.0.weight size: torch.Size([2048, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,189 INFO:Parameter: layer4.0.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,190 INFO:Parameter: layer4.0.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,190 INFO:Parameter: layer4.0.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,190 INFO:Parameter: layer4.0.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,190 INFO:Parameter: layer4.0.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,190 INFO:Parameter: layer4.0.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,191 INFO:Parameter: layer4.0.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,191 INFO:Parameter: layer4.0.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,191 INFO:Parameter: layer4.0.conv1.weight size: torch.Size([512, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,192 INFO:Parameter: layer3.5.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,192 INFO:Parameter: layer3.5.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,192 INFO:Parameter: layer3.5.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,192 INFO:Parameter: layer3.5.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,193 INFO:Parameter: layer3.5.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,193 INFO:Parameter: layer3.5.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,193 INFO:Parameter: layer3.5.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,193 INFO:Parameter: layer3.5.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,194 INFO:Parameter: layer3.5.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,194 INFO:Parameter: layer3.4.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,194 INFO:Parameter: layer3.4.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,194 INFO:Parameter: layer3.4.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,195 INFO:Parameter: layer3.4.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,195 INFO:Parameter: layer3.4.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,195 INFO:Parameter: layer3.4.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,195 INFO:Parameter: layer3.4.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,195 INFO:Parameter: layer3.4.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,196 INFO:Parameter: layer3.4.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,196 INFO:Parameter: layer3.3.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,196 INFO:Parameter: layer3.3.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,197 INFO:Parameter: layer3.3.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,197 INFO:Parameter: layer3.3.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,197 INFO:Parameter: layer3.3.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,197 INFO:Parameter: layer3.3.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,198 INFO:Parameter: layer3.3.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,198 INFO:Parameter: layer3.3.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,198 INFO:Parameter: layer3.3.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,198 INFO:Parameter: layer3.2.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,199 INFO:Parameter: layer3.2.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,199 INFO:Parameter: layer3.2.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,199 INFO:Parameter: layer3.2.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,199 INFO:Parameter: layer3.2.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,199 INFO:Parameter: layer3.2.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,199 INFO:Parameter: layer3.2.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,199 INFO:Parameter: layer3.2.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,199 INFO:Parameter: layer3.2.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,200 INFO:Parameter: layer3.1.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,201 INFO:Parameter: layer3.1.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,201 INFO:Parameter: layer3.1.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,201 INFO:Parameter: layer3.1.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,201 INFO:Parameter: layer3.1.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,201 INFO:Parameter: layer3.1.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,202 INFO:Parameter: layer3.1.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,202 INFO:Parameter: layer3.1.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,202 INFO:Parameter: layer3.1.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,202 INFO:Parameter: layer3.0.downsample.1.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,202 INFO:Parameter: layer3.0.downsample.1.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,202 INFO:Parameter: layer3.0.downsample.0.weight size: torch.Size([1024, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,204 INFO:Parameter: layer3.0.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,204 INFO:Parameter: layer3.0.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,205 INFO:Parameter: layer3.0.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,205 INFO:Parameter: layer3.0.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,205 INFO:Parameter: layer3.0.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,205 INFO:Parameter: layer3.0.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,205 INFO:Parameter: layer3.0.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,205 INFO:Parameter: layer3.0.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,206 INFO:Parameter: layer3.0.conv1.weight size: torch.Size([256, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,206 INFO:Parameter: layer2.3.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,207 INFO:Parameter: layer2.3.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,207 INFO:Parameter: layer2.3.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,207 INFO:Parameter: layer2.3.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,207 INFO:Parameter: layer2.3.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,207 INFO:Parameter: layer2.3.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,208 INFO:Parameter: layer2.3.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,209 INFO:Parameter: layer2.3.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,210 INFO:Parameter: layer2.3.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,210 INFO:Parameter: layer2.2.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,210 INFO:Parameter: layer2.2.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,210 INFO:Parameter: layer2.2.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,210 INFO:Parameter: layer2.2.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,210 INFO:Parameter: layer2.2.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,211 INFO:Parameter: layer2.2.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,211 INFO:Parameter: layer2.2.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,212 INFO:Parameter: layer2.2.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,212 INFO:Parameter: layer2.2.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,212 INFO:Parameter: layer2.1.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,212 INFO:Parameter: layer2.1.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,213 INFO:Parameter: layer2.1.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,213 INFO:Parameter: layer2.1.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,213 INFO:Parameter: layer2.1.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,214 INFO:Parameter: layer2.1.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,214 INFO:Parameter: layer2.1.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,214 INFO:Parameter: layer2.1.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,214 INFO:Parameter: layer2.1.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,214 INFO:Parameter: layer2.0.downsample.1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,215 INFO:Parameter: layer2.0.downsample.1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,215 INFO:Parameter: layer2.0.downsample.0.weight size: torch.Size([512, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,215 INFO:Parameter: layer2.0.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,215 INFO:Parameter: layer2.0.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,216 INFO:Parameter: layer2.0.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,216 INFO:Parameter: layer2.0.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,216 INFO:Parameter: layer2.0.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,217 INFO:Parameter: layer2.0.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,217 INFO:Parameter: layer2.0.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,217 INFO:Parameter: layer2.0.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,217 INFO:Parameter: layer2.0.conv1.weight size: torch.Size([128, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,218 INFO:Parameter: layer1.2.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,218 INFO:Parameter: layer1.2.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,218 INFO:Parameter: layer1.2.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,219 INFO:Parameter: layer1.2.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,219 INFO:Parameter: layer1.2.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,219 INFO:Parameter: layer1.2.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,219 INFO:Parameter: layer1.2.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,219 INFO:Parameter: layer1.2.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,219 INFO:Parameter: layer1.2.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,219 INFO:Parameter: layer1.1.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,220 INFO:Parameter: layer1.1.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,220 INFO:Parameter: layer1.1.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,221 INFO:Parameter: layer1.1.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,221 INFO:Parameter: layer1.1.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,221 INFO:Parameter: layer1.1.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,221 INFO:Parameter: layer1.1.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,221 INFO:Parameter: layer1.1.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,221 INFO:Parameter: layer1.1.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,222 INFO:Parameter: layer1.0.downsample.1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,222 INFO:Parameter: layer1.0.downsample.1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,223 INFO:Parameter: layer1.0.downsample.0.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,223 INFO:Parameter: layer1.0.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,224 INFO:Parameter: layer1.0.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,224 INFO:Parameter: layer1.0.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,224 INFO:Parameter: layer1.0.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,225 INFO:Parameter: layer1.0.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,225 INFO:Parameter: layer1.0.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,225 INFO:Parameter: layer1.0.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,225 INFO:Parameter: layer1.0.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,225 INFO:Parameter: layer1.0.conv1.weight size: torch.Size([64, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,226 INFO:Parameter: bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,226 INFO:Parameter: bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,227 INFO:Parameter: conv1.weight size: torch.Size([64, 3, 7, 7])ready to comm
+2022-05-12 14:45:55,227 INFO:backward pass is done, wait for comm
+2022-05-12 14:45:55,277 INFO:Comm finished
+2022-05-12 14:45:55,278 INFO:BatchIdx: 2 TrainLoss: 5.898105
+2022-05-12 14:45:55,284 INFO:Parameter: fc.bias size: torch.Size([1000])ready to comm
+2022-05-12 14:45:55,285 INFO:Parameter: fc.weight size: torch.Size([1000, 2048])ready to comm
+2022-05-12 14:45:55,285 INFO:Parameter: layer4.2.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,286 INFO:Parameter: layer4.2.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,286 INFO:Parameter: layer4.2.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,286 INFO:Parameter: layer4.2.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,286 INFO:Parameter: layer4.2.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,286 INFO:Parameter: layer4.2.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,286 INFO:Parameter: layer4.2.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,287 INFO:Parameter: layer4.2.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,287 INFO:Parameter: layer4.2.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,288 INFO:Parameter: layer4.1.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,288 INFO:Parameter: layer4.1.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,288 INFO:Parameter: layer4.1.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,289 INFO:Parameter: layer4.1.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,289 INFO:Parameter: layer4.1.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,289 INFO:Parameter: layer4.1.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,290 INFO:Parameter: layer4.1.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,290 INFO:Parameter: layer4.1.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,291 INFO:Parameter: layer4.1.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,291 INFO:Parameter: layer4.0.downsample.1.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,291 INFO:Parameter: layer4.0.downsample.1.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,291 INFO:Parameter: layer4.0.downsample.0.weight size: torch.Size([2048, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,292 INFO:Parameter: layer4.0.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,292 INFO:Parameter: layer4.0.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,293 INFO:Parameter: layer4.0.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,293 INFO:Parameter: layer4.0.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,293 INFO:Parameter: layer4.0.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,293 INFO:Parameter: layer4.0.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,293 INFO:Parameter: layer4.0.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,293 INFO:Parameter: layer4.0.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,293 INFO:Parameter: layer4.0.conv1.weight size: torch.Size([512, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,294 INFO:Parameter: layer3.5.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,294 INFO:Parameter: layer3.5.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,296 INFO:Parameter: layer3.5.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,296 INFO:Parameter: layer3.5.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,296 INFO:Parameter: layer3.5.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,296 INFO:Parameter: layer3.5.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,297 INFO:Parameter: layer3.5.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,297 INFO:Parameter: layer3.5.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,297 INFO:Parameter: layer3.5.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,298 INFO:Parameter: layer3.4.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,298 INFO:Parameter: layer3.4.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,298 INFO:Parameter: layer3.4.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,298 INFO:Parameter: layer3.4.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,299 INFO:Parameter: layer3.4.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,299 INFO:Parameter: layer3.4.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,299 INFO:Parameter: layer3.4.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,300 INFO:Parameter: layer3.4.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,300 INFO:Parameter: layer3.4.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,301 INFO:Parameter: layer3.3.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,301 INFO:Parameter: layer3.3.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,301 INFO:Parameter: layer3.3.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,302 INFO:Parameter: layer3.3.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,302 INFO:Parameter: layer3.3.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,302 INFO:Parameter: layer3.3.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,302 INFO:Parameter: layer3.3.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,302 INFO:Parameter: layer3.3.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,302 INFO:Parameter: layer3.3.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,302 INFO:Parameter: layer3.2.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,303 INFO:Parameter: layer3.2.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,304 INFO:Parameter: layer3.2.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,304 INFO:Parameter: layer3.2.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,304 INFO:Parameter: layer3.2.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,304 INFO:Parameter: layer3.2.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,304 INFO:Parameter: layer3.2.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,304 INFO:Parameter: layer3.2.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,306 INFO:Parameter: layer3.2.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,307 INFO:Parameter: layer3.1.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,307 INFO:Parameter: layer3.1.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,307 INFO:Parameter: layer3.1.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,307 INFO:Parameter: layer3.1.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,307 INFO:Parameter: layer3.1.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,307 INFO:Parameter: layer3.1.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,308 INFO:Parameter: layer3.1.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,309 INFO:Parameter: layer3.1.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,309 INFO:Parameter: layer3.1.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,309 INFO:Parameter: layer3.0.downsample.1.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,309 INFO:Parameter: layer3.0.downsample.1.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,309 INFO:Parameter: layer3.0.downsample.0.weight size: torch.Size([1024, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,309 INFO:Parameter: layer3.0.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,310 INFO:Parameter: layer3.0.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,311 INFO:Parameter: layer3.0.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,312 INFO:Parameter: layer3.0.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,312 INFO:Parameter: layer3.0.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,312 INFO:Parameter: layer3.0.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,312 INFO:Parameter: layer3.0.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,313 INFO:Parameter: layer3.0.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,313 INFO:Parameter: layer3.0.conv1.weight size: torch.Size([256, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,313 INFO:Parameter: layer2.3.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,313 INFO:Parameter: layer2.3.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,313 INFO:Parameter: layer2.3.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,314 INFO:Parameter: layer2.3.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,314 INFO:Parameter: layer2.3.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,315 INFO:Parameter: layer2.3.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,315 INFO:Parameter: layer2.3.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,315 INFO:Parameter: layer2.3.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,316 INFO:Parameter: layer2.3.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,316 INFO:Parameter: layer2.2.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,316 INFO:Parameter: layer2.2.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,317 INFO:Parameter: layer2.2.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,318 INFO:Parameter: layer2.2.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,318 INFO:Parameter: layer2.2.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,318 INFO:Parameter: layer2.2.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,318 INFO:Parameter: layer2.2.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,318 INFO:Parameter: layer2.2.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,318 INFO:Parameter: layer2.2.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,318 INFO:Parameter: layer2.1.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,318 INFO:Parameter: layer2.1.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,319 INFO:Parameter: layer2.1.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,320 INFO:Parameter: layer2.1.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,320 INFO:Parameter: layer2.1.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,320 INFO:Parameter: layer2.1.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,320 INFO:Parameter: layer2.1.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,320 INFO:Parameter: layer2.1.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,320 INFO:Parameter: layer2.1.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,321 INFO:Parameter: layer2.0.downsample.1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,321 INFO:Parameter: layer2.0.downsample.1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,322 INFO:Parameter: layer2.0.downsample.0.weight size: torch.Size([512, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,322 INFO:Parameter: layer2.0.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,322 INFO:Parameter: layer2.0.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,322 INFO:Parameter: layer2.0.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,322 INFO:Parameter: layer2.0.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,322 INFO:Parameter: layer2.0.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,322 INFO:Parameter: layer2.0.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,323 INFO:Parameter: layer2.0.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,323 INFO:Parameter: layer2.0.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,323 INFO:Parameter: layer2.0.conv1.weight size: torch.Size([128, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,324 INFO:Parameter: layer1.2.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,324 INFO:Parameter: layer1.2.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,324 INFO:Parameter: layer1.2.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,324 INFO:Parameter: layer1.2.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,324 INFO:Parameter: layer1.2.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,325 INFO:Parameter: layer1.2.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,325 INFO:Parameter: layer1.2.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,338 INFO:Parameter: layer1.2.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,340 INFO:Parameter: layer1.2.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,340 INFO:Parameter: layer1.1.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,340 INFO:Parameter: layer1.1.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,341 INFO:Parameter: layer1.1.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,341 INFO:Parameter: layer1.1.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,342 INFO:Parameter: layer1.1.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,342 INFO:Parameter: layer1.1.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,342 INFO:Parameter: layer1.1.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,342 INFO:Parameter: layer1.1.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,342 INFO:Parameter: layer1.1.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,342 INFO:Parameter: layer1.0.downsample.1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,343 INFO:Parameter: layer1.0.downsample.1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,343 INFO:Parameter: layer1.0.downsample.0.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,344 INFO:Parameter: layer1.0.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,344 INFO:Parameter: layer1.0.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,345 INFO:Parameter: layer1.0.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,345 INFO:Parameter: layer1.0.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,345 INFO:Parameter: layer1.0.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,345 INFO:Parameter: layer1.0.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,346 INFO:Parameter: layer1.0.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,346 INFO:Parameter: layer1.0.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,347 INFO:Parameter: layer1.0.conv1.weight size: torch.Size([64, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,347 INFO:Parameter: bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,347 INFO:Parameter: bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,347 INFO:Parameter: conv1.weight size: torch.Size([64, 3, 7, 7])ready to comm
+2022-05-12 14:45:55,347 INFO:backward pass is done, wait for comm
+2022-05-12 14:45:55,379 INFO:Comm finished
+2022-05-12 14:45:55,381 INFO:BatchIdx: 3 TrainLoss: 5.316448
+2022-05-12 14:45:55,387 INFO:Parameter: fc.bias size: torch.Size([1000])ready to comm
+2022-05-12 14:45:55,387 INFO:Parameter: fc.weight size: torch.Size([1000, 2048])ready to comm
+2022-05-12 14:45:55,387 INFO:Parameter: layer4.2.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,389 INFO:Parameter: layer4.2.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,389 INFO:Parameter: layer4.2.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,389 INFO:Parameter: layer4.2.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,389 INFO:Parameter: layer4.2.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,389 INFO:Parameter: layer4.2.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,389 INFO:Parameter: layer4.2.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,389 INFO:Parameter: layer4.2.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,390 INFO:Parameter: layer4.2.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,391 INFO:Parameter: layer4.1.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,391 INFO:Parameter: layer4.1.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,391 INFO:Parameter: layer4.1.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,391 INFO:Parameter: layer4.1.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,391 INFO:Parameter: layer4.1.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,391 INFO:Parameter: layer4.1.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,391 INFO:Parameter: layer4.1.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,392 INFO:Parameter: layer4.1.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,393 INFO:Parameter: layer4.1.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,394 INFO:Parameter: layer4.0.downsample.1.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,394 INFO:Parameter: layer4.0.downsample.1.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,394 INFO:Parameter: layer4.0.downsample.0.weight size: torch.Size([2048, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,394 INFO:Parameter: layer4.0.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,394 INFO:Parameter: layer4.0.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,395 INFO:Parameter: layer4.0.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,395 INFO:Parameter: layer4.0.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,395 INFO:Parameter: layer4.0.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,395 INFO:Parameter: layer4.0.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,396 INFO:Parameter: layer4.0.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,396 INFO:Parameter: layer4.0.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,396 INFO:Parameter: layer4.0.conv1.weight size: torch.Size([512, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,397 INFO:Parameter: layer3.5.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,397 INFO:Parameter: layer3.5.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,398 INFO:Parameter: layer3.5.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,398 INFO:Parameter: layer3.5.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,398 INFO:Parameter: layer3.5.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,399 INFO:Parameter: layer3.5.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,399 INFO:Parameter: layer3.5.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,399 INFO:Parameter: layer3.5.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,399 INFO:Parameter: layer3.5.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,399 INFO:Parameter: layer3.4.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,400 INFO:Parameter: layer3.4.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,401 INFO:Parameter: layer3.4.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,401 INFO:Parameter: layer3.4.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,401 INFO:Parameter: layer3.4.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,401 INFO:Parameter: layer3.4.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,401 INFO:Parameter: layer3.4.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,401 INFO:Parameter: layer3.4.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,401 INFO:Parameter: layer3.4.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,402 INFO:Parameter: layer3.3.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,403 INFO:Parameter: layer3.3.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,404 INFO:Parameter: layer3.3.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,404 INFO:Parameter: layer3.3.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,404 INFO:Parameter: layer3.3.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,404 INFO:Parameter: layer3.3.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,405 INFO:Parameter: layer3.3.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,405 INFO:Parameter: layer3.3.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,405 INFO:Parameter: layer3.3.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,405 INFO:Parameter: layer3.2.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,406 INFO:Parameter: layer3.2.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,406 INFO:Parameter: layer3.2.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,406 INFO:Parameter: layer3.2.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,407 INFO:Parameter: layer3.2.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,407 INFO:Parameter: layer3.2.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,407 INFO:Parameter: layer3.2.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,407 INFO:Parameter: layer3.2.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,408 INFO:Parameter: layer3.2.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,408 INFO:Parameter: layer3.1.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,409 INFO:Parameter: layer3.1.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,409 INFO:Parameter: layer3.1.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,409 INFO:Parameter: layer3.1.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,409 INFO:Parameter: layer3.1.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,409 INFO:Parameter: layer3.1.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,410 INFO:Parameter: layer3.1.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,410 INFO:Parameter: layer3.1.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,410 INFO:Parameter: layer3.1.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,411 INFO:Parameter: layer3.0.downsample.1.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,411 INFO:Parameter: layer3.0.downsample.1.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,411 INFO:Parameter: layer3.0.downsample.0.weight size: torch.Size([1024, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,411 INFO:Parameter: layer3.0.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,412 INFO:Parameter: layer3.0.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,412 INFO:Parameter: layer3.0.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,413 INFO:Parameter: layer3.0.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,414 INFO:Parameter: layer3.0.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,414 INFO:Parameter: layer3.0.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,414 INFO:Parameter: layer3.0.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,414 INFO:Parameter: layer3.0.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,414 INFO:Parameter: layer3.0.conv1.weight size: torch.Size([256, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,414 INFO:Parameter: layer2.3.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,415 INFO:Parameter: layer2.3.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,416 INFO:Parameter: layer2.3.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,416 INFO:Parameter: layer2.3.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,416 INFO:Parameter: layer2.3.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,416 INFO:Parameter: layer2.3.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,416 INFO:Parameter: layer2.3.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,416 INFO:Parameter: layer2.3.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,416 INFO:Parameter: layer2.3.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,417 INFO:Parameter: layer2.2.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,418 INFO:Parameter: layer2.2.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,419 INFO:Parameter: layer2.2.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,419 INFO:Parameter: layer2.2.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,419 INFO:Parameter: layer2.2.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,419 INFO:Parameter: layer2.2.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,420 INFO:Parameter: layer2.2.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,420 INFO:Parameter: layer2.2.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,420 INFO:Parameter: layer2.2.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,421 INFO:Parameter: layer2.1.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,421 INFO:Parameter: layer2.1.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,421 INFO:Parameter: layer2.1.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,421 INFO:Parameter: layer2.1.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,422 INFO:Parameter: layer2.1.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,422 INFO:Parameter: layer2.1.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,422 INFO:Parameter: layer2.1.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,422 INFO:Parameter: layer2.1.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,422 INFO:Parameter: layer2.1.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,423 INFO:Parameter: layer2.0.downsample.1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,424 INFO:Parameter: layer2.0.downsample.1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,424 INFO:Parameter: layer2.0.downsample.0.weight size: torch.Size([512, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,424 INFO:Parameter: layer2.0.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,424 INFO:Parameter: layer2.0.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,424 INFO:Parameter: layer2.0.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,424 INFO:Parameter: layer2.0.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,425 INFO:Parameter: layer2.0.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,426 INFO:Parameter: layer2.0.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,426 INFO:Parameter: layer2.0.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,426 INFO:Parameter: layer2.0.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,426 INFO:Parameter: layer2.0.conv1.weight size: torch.Size([128, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,426 INFO:Parameter: layer1.2.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,426 INFO:Parameter: layer1.2.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,426 INFO:Parameter: layer1.2.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,427 INFO:Parameter: layer1.2.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,427 INFO:Parameter: layer1.2.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,428 INFO:Parameter: layer1.2.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,429 INFO:Parameter: layer1.2.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,429 INFO:Parameter: layer1.2.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,429 INFO:Parameter: layer1.2.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,429 INFO:Parameter: layer1.1.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,429 INFO:Parameter: layer1.1.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,429 INFO:Parameter: layer1.1.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,429 INFO:Parameter: layer1.1.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,429 INFO:Parameter: layer1.1.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,430 INFO:Parameter: layer1.1.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,430 INFO:Parameter: layer1.1.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,431 INFO:Parameter: layer1.1.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,431 INFO:Parameter: layer1.1.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,431 INFO:Parameter: layer1.0.downsample.1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,431 INFO:Parameter: layer1.0.downsample.1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,431 INFO:Parameter: layer1.0.downsample.0.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,432 INFO:Parameter: layer1.0.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,432 INFO:Parameter: layer1.0.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,432 INFO:Parameter: layer1.0.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,433 INFO:Parameter: layer1.0.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,433 INFO:Parameter: layer1.0.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,434 INFO:Parameter: layer1.0.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,434 INFO:Parameter: layer1.0.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,434 INFO:Parameter: layer1.0.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,434 INFO:Parameter: layer1.0.conv1.weight size: torch.Size([64, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,435 INFO:Parameter: bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,435 INFO:Parameter: bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,435 INFO:Parameter: conv1.weight size: torch.Size([64, 3, 7, 7])ready to comm
+2022-05-12 14:45:55,436 INFO:backward pass is done, wait for comm
+2022-05-12 14:45:55,482 INFO:Comm finished
+2022-05-12 14:45:55,484 INFO:BatchIdx: 4 TrainLoss: 4.864472
+2022-05-12 14:45:55,490 INFO:Parameter: fc.bias size: torch.Size([1000])ready to comm
+2022-05-12 14:45:55,490 INFO:Parameter: fc.weight size: torch.Size([1000, 2048])ready to comm
+2022-05-12 14:45:55,491 INFO:Parameter: layer4.2.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,492 INFO:Parameter: layer4.2.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,492 INFO:Parameter: layer4.2.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,492 INFO:Parameter: layer4.2.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,492 INFO:Parameter: layer4.2.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,492 INFO:Parameter: layer4.2.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,492 INFO:Parameter: layer4.2.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,492 INFO:Parameter: layer4.2.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,493 INFO:Parameter: layer4.2.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,493 INFO:Parameter: layer4.1.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,494 INFO:Parameter: layer4.1.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,494 INFO:Parameter: layer4.1.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,494 INFO:Parameter: layer4.1.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,494 INFO:Parameter: layer4.1.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,494 INFO:Parameter: layer4.1.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,495 INFO:Parameter: layer4.1.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,495 INFO:Parameter: layer4.1.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,496 INFO:Parameter: layer4.1.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,496 INFO:Parameter: layer4.0.downsample.1.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,497 INFO:Parameter: layer4.0.downsample.1.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,497 INFO:Parameter: layer4.0.downsample.0.weight size: torch.Size([2048, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,497 INFO:Parameter: layer4.0.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,497 INFO:Parameter: layer4.0.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,497 INFO:Parameter: layer4.0.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,499 INFO:Parameter: layer4.0.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,499 INFO:Parameter: layer4.0.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,499 INFO:Parameter: layer4.0.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,499 INFO:Parameter: layer4.0.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,499 INFO:Parameter: layer4.0.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,499 INFO:Parameter: layer4.0.conv1.weight size: torch.Size([512, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,499 INFO:Parameter: layer3.5.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,501 INFO:Parameter: layer3.5.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,501 INFO:Parameter: layer3.5.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,502 INFO:Parameter: layer3.5.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,502 INFO:Parameter: layer3.5.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,502 INFO:Parameter: layer3.5.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,502 INFO:Parameter: layer3.5.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,502 INFO:Parameter: layer3.5.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,503 INFO:Parameter: layer3.5.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,503 INFO:Parameter: layer3.4.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,504 INFO:Parameter: layer3.4.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,504 INFO:Parameter: layer3.4.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,504 INFO:Parameter: layer3.4.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,504 INFO:Parameter: layer3.4.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,504 INFO:Parameter: layer3.4.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,505 INFO:Parameter: layer3.4.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,505 INFO:Parameter: layer3.4.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,506 INFO:Parameter: layer3.4.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,506 INFO:Parameter: layer3.3.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,506 INFO:Parameter: layer3.3.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,507 INFO:Parameter: layer3.3.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,508 INFO:Parameter: layer3.3.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,508 INFO:Parameter: layer3.3.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,508 INFO:Parameter: layer3.3.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,508 INFO:Parameter: layer3.3.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,508 INFO:Parameter: layer3.3.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,508 INFO:Parameter: layer3.3.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,508 INFO:Parameter: layer3.2.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,508 INFO:Parameter: layer3.2.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,510 INFO:Parameter: layer3.2.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,510 INFO:Parameter: layer3.2.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,510 INFO:Parameter: layer3.2.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,510 INFO:Parameter: layer3.2.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,510 INFO:Parameter: layer3.2.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,510 INFO:Parameter: layer3.2.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,511 INFO:Parameter: layer3.2.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,511 INFO:Parameter: layer3.1.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,512 INFO:Parameter: layer3.1.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,512 INFO:Parameter: layer3.1.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,512 INFO:Parameter: layer3.1.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,512 INFO:Parameter: layer3.1.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,512 INFO:Parameter: layer3.1.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,512 INFO:Parameter: layer3.1.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,513 INFO:Parameter: layer3.1.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,514 INFO:Parameter: layer3.1.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,514 INFO:Parameter: layer3.0.downsample.1.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,514 INFO:Parameter: layer3.0.downsample.1.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,514 INFO:Parameter: layer3.0.downsample.0.weight size: torch.Size([1024, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,514 INFO:Parameter: layer3.0.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,515 INFO:Parameter: layer3.0.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,515 INFO:Parameter: layer3.0.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,516 INFO:Parameter: layer3.0.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,516 INFO:Parameter: layer3.0.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,517 INFO:Parameter: layer3.0.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,517 INFO:Parameter: layer3.0.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,518 INFO:Parameter: layer3.0.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,518 INFO:Parameter: layer3.0.conv1.weight size: torch.Size([256, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,518 INFO:Parameter: layer2.3.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,518 INFO:Parameter: layer2.3.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,519 INFO:Parameter: layer2.3.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,519 INFO:Parameter: layer2.3.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,520 INFO:Parameter: layer2.3.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,520 INFO:Parameter: layer2.3.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,520 INFO:Parameter: layer2.3.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,520 INFO:Parameter: layer2.3.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,521 INFO:Parameter: layer2.3.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,522 INFO:Parameter: layer2.2.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,522 INFO:Parameter: layer2.2.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,522 INFO:Parameter: layer2.2.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,522 INFO:Parameter: layer2.2.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,522 INFO:Parameter: layer2.2.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,522 INFO:Parameter: layer2.2.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,523 INFO:Parameter: layer2.2.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,524 INFO:Parameter: layer2.2.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,524 INFO:Parameter: layer2.2.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,524 INFO:Parameter: layer2.1.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,524 INFO:Parameter: layer2.1.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,524 INFO:Parameter: layer2.1.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,524 INFO:Parameter: layer2.1.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,525 INFO:Parameter: layer2.1.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,525 INFO:Parameter: layer2.1.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,526 INFO:Parameter: layer2.1.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,527 INFO:Parameter: layer2.1.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,527 INFO:Parameter: layer2.1.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,528 INFO:Parameter: layer2.0.downsample.1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,528 INFO:Parameter: layer2.0.downsample.1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,528 INFO:Parameter: layer2.0.downsample.0.weight size: torch.Size([512, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,528 INFO:Parameter: layer2.0.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,528 INFO:Parameter: layer2.0.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,529 INFO:Parameter: layer2.0.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,529 INFO:Parameter: layer2.0.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,530 INFO:Parameter: layer2.0.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,530 INFO:Parameter: layer2.0.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,530 INFO:Parameter: layer2.0.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,530 INFO:Parameter: layer2.0.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,530 INFO:Parameter: layer2.0.conv1.weight size: torch.Size([128, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,531 INFO:Parameter: layer1.2.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,532 INFO:Parameter: layer1.2.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,532 INFO:Parameter: layer1.2.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,532 INFO:Parameter: layer1.2.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,532 INFO:Parameter: layer1.2.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,532 INFO:Parameter: layer1.2.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,532 INFO:Parameter: layer1.2.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,532 INFO:Parameter: layer1.2.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,534 INFO:Parameter: layer1.2.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,534 INFO:Parameter: layer1.1.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,534 INFO:Parameter: layer1.1.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,534 INFO:Parameter: layer1.1.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,534 INFO:Parameter: layer1.1.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,534 INFO:Parameter: layer1.1.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,534 INFO:Parameter: layer1.1.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,536 INFO:Parameter: layer1.1.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,536 INFO:Parameter: layer1.1.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,537 INFO:Parameter: layer1.1.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,537 INFO:Parameter: layer1.0.downsample.1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,537 INFO:Parameter: layer1.0.downsample.1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,537 INFO:Parameter: layer1.0.downsample.0.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,538 INFO:Parameter: layer1.0.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,538 INFO:Parameter: layer1.0.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,538 INFO:Parameter: layer1.0.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,539 INFO:Parameter: layer1.0.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,539 INFO:Parameter: layer1.0.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,539 INFO:Parameter: layer1.0.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,539 INFO:Parameter: layer1.0.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,540 INFO:Parameter: layer1.0.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,541 INFO:Parameter: layer1.0.conv1.weight size: torch.Size([64, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,542 INFO:Parameter: bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,542 INFO:Parameter: bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,542 INFO:Parameter: conv1.weight size: torch.Size([64, 3, 7, 7])ready to comm
+2022-05-12 14:45:55,542 INFO:backward pass is done, wait for comm
+2022-05-12 14:45:55,585 INFO:Comm finished
+2022-05-12 14:45:55,587 INFO:BatchIdx: 5 TrainLoss: 4.524076
+2022-05-12 14:45:55,593 INFO:Parameter: fc.bias size: torch.Size([1000])ready to comm
+2022-05-12 14:45:55,593 INFO:Parameter: fc.weight size: torch.Size([1000, 2048])ready to comm
+2022-05-12 14:45:55,594 INFO:Parameter: layer4.2.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,594 INFO:Parameter: layer4.2.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,595 INFO:Parameter: layer4.2.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,595 INFO:Parameter: layer4.2.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,595 INFO:Parameter: layer4.2.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,595 INFO:Parameter: layer4.2.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,595 INFO:Parameter: layer4.2.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,596 INFO:Parameter: layer4.2.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,596 INFO:Parameter: layer4.2.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,597 INFO:Parameter: layer4.1.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,597 INFO:Parameter: layer4.1.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,597 INFO:Parameter: layer4.1.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,597 INFO:Parameter: layer4.1.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,597 INFO:Parameter: layer4.1.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,598 INFO:Parameter: layer4.1.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,598 INFO:Parameter: layer4.1.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,598 INFO:Parameter: layer4.1.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,599 INFO:Parameter: layer4.1.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,599 INFO:Parameter: layer4.0.downsample.1.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,600 INFO:Parameter: layer4.0.downsample.1.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,600 INFO:Parameter: layer4.0.downsample.0.weight size: torch.Size([2048, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,601 INFO:Parameter: layer4.0.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,601 INFO:Parameter: layer4.0.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,601 INFO:Parameter: layer4.0.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,601 INFO:Parameter: layer4.0.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,601 INFO:Parameter: layer4.0.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,602 INFO:Parameter: layer4.0.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,602 INFO:Parameter: layer4.0.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,603 INFO:Parameter: layer4.0.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,603 INFO:Parameter: layer4.0.conv1.weight size: torch.Size([512, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,603 INFO:Parameter: layer3.5.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,603 INFO:Parameter: layer3.5.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,605 INFO:Parameter: layer3.5.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,605 INFO:Parameter: layer3.5.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,605 INFO:Parameter: layer3.5.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,605 INFO:Parameter: layer3.5.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,606 INFO:Parameter: layer3.5.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,606 INFO:Parameter: layer3.5.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,606 INFO:Parameter: layer3.5.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,607 INFO:Parameter: layer3.4.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,607 INFO:Parameter: layer3.4.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,607 INFO:Parameter: layer3.4.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,607 INFO:Parameter: layer3.4.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,608 INFO:Parameter: layer3.4.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,608 INFO:Parameter: layer3.4.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,608 INFO:Parameter: layer3.4.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,609 INFO:Parameter: layer3.4.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,609 INFO:Parameter: layer3.4.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,609 INFO:Parameter: layer3.3.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,610 INFO:Parameter: layer3.3.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,611 INFO:Parameter: layer3.3.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,611 INFO:Parameter: layer3.3.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,611 INFO:Parameter: layer3.3.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,611 INFO:Parameter: layer3.3.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,611 INFO:Parameter: layer3.3.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,611 INFO:Parameter: layer3.3.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,612 INFO:Parameter: layer3.3.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,613 INFO:Parameter: layer3.2.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,613 INFO:Parameter: layer3.2.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,613 INFO:Parameter: layer3.2.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,613 INFO:Parameter: layer3.2.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,614 INFO:Parameter: layer3.2.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,614 INFO:Parameter: layer3.2.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,614 INFO:Parameter: layer3.2.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,615 INFO:Parameter: layer3.2.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,615 INFO:Parameter: layer3.2.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,615 INFO:Parameter: layer3.1.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,615 INFO:Parameter: layer3.1.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,615 INFO:Parameter: layer3.1.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,616 INFO:Parameter: layer3.1.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,616 INFO:Parameter: layer3.1.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,616 INFO:Parameter: layer3.1.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,617 INFO:Parameter: layer3.1.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,617 INFO:Parameter: layer3.1.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,617 INFO:Parameter: layer3.1.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,617 INFO:Parameter: layer3.0.downsample.1.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,617 INFO:Parameter: layer3.0.downsample.1.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,618 INFO:Parameter: layer3.0.downsample.0.weight size: torch.Size([1024, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,619 INFO:Parameter: layer3.0.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,620 INFO:Parameter: layer3.0.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,620 INFO:Parameter: layer3.0.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,621 INFO:Parameter: layer3.0.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,621 INFO:Parameter: layer3.0.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,621 INFO:Parameter: layer3.0.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,621 INFO:Parameter: layer3.0.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,621 INFO:Parameter: layer3.0.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,622 INFO:Parameter: layer3.0.conv1.weight size: torch.Size([256, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,622 INFO:Parameter: layer2.3.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,623 INFO:Parameter: layer2.3.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,623 INFO:Parameter: layer2.3.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,623 INFO:Parameter: layer2.3.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,623 INFO:Parameter: layer2.3.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,623 INFO:Parameter: layer2.3.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,624 INFO:Parameter: layer2.3.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,624 INFO:Parameter: layer2.3.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,625 INFO:Parameter: layer2.3.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,625 INFO:Parameter: layer2.2.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,625 INFO:Parameter: layer2.2.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,625 INFO:Parameter: layer2.2.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,626 INFO:Parameter: layer2.2.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,626 INFO:Parameter: layer2.2.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,626 INFO:Parameter: layer2.2.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,627 INFO:Parameter: layer2.2.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,627 INFO:Parameter: layer2.2.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,627 INFO:Parameter: layer2.2.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,627 INFO:Parameter: layer2.1.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,628 INFO:Parameter: layer2.1.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,628 INFO:Parameter: layer2.1.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,629 INFO:Parameter: layer2.1.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,629 INFO:Parameter: layer2.1.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,629 INFO:Parameter: layer2.1.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,630 INFO:Parameter: layer2.1.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,631 INFO:Parameter: layer2.1.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,631 INFO:Parameter: layer2.1.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,631 INFO:Parameter: layer2.0.downsample.1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,631 INFO:Parameter: layer2.0.downsample.1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,631 INFO:Parameter: layer2.0.downsample.0.weight size: torch.Size([512, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,631 INFO:Parameter: layer2.0.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,631 INFO:Parameter: layer2.0.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,633 INFO:Parameter: layer2.0.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,633 INFO:Parameter: layer2.0.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,633 INFO:Parameter: layer2.0.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,633 INFO:Parameter: layer2.0.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,633 INFO:Parameter: layer2.0.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,633 INFO:Parameter: layer2.0.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,634 INFO:Parameter: layer2.0.conv1.weight size: torch.Size([128, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,635 INFO:Parameter: layer1.2.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,635 INFO:Parameter: layer1.2.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,635 INFO:Parameter: layer1.2.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,635 INFO:Parameter: layer1.2.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,635 INFO:Parameter: layer1.2.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,635 INFO:Parameter: layer1.2.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,636 INFO:Parameter: layer1.2.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,636 INFO:Parameter: layer1.2.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,637 INFO:Parameter: layer1.2.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,637 INFO:Parameter: layer1.1.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,637 INFO:Parameter: layer1.1.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,637 INFO:Parameter: layer1.1.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,637 INFO:Parameter: layer1.1.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,638 INFO:Parameter: layer1.1.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,638 INFO:Parameter: layer1.1.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,639 INFO:Parameter: layer1.1.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,640 INFO:Parameter: layer1.1.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,640 INFO:Parameter: layer1.1.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,640 INFO:Parameter: layer1.0.downsample.1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,641 INFO:Parameter: layer1.0.downsample.1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,641 INFO:Parameter: layer1.0.downsample.0.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,641 INFO:Parameter: layer1.0.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,641 INFO:Parameter: layer1.0.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,641 INFO:Parameter: layer1.0.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,642 INFO:Parameter: layer1.0.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,642 INFO:Parameter: layer1.0.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,642 INFO:Parameter: layer1.0.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,643 INFO:Parameter: layer1.0.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,643 INFO:Parameter: layer1.0.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,643 INFO:Parameter: layer1.0.conv1.weight size: torch.Size([64, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,643 INFO:Parameter: bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,645 INFO:Parameter: bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,645 INFO:Parameter: conv1.weight size: torch.Size([64, 3, 7, 7])ready to comm
+2022-05-12 14:45:55,645 INFO:backward pass is done, wait for comm
+2022-05-12 14:45:55,688 INFO:Comm finished
+2022-05-12 14:45:55,689 INFO:BatchIdx: 6 TrainLoss: 4.211873
+2022-05-12 14:45:55,696 INFO:Parameter: fc.bias size: torch.Size([1000])ready to comm
+2022-05-12 14:45:55,696 INFO:Parameter: fc.weight size: torch.Size([1000, 2048])ready to comm
+2022-05-12 14:45:55,696 INFO:Parameter: layer4.2.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,697 INFO:Parameter: layer4.2.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,697 INFO:Parameter: layer4.2.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,698 INFO:Parameter: layer4.2.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,698 INFO:Parameter: layer4.2.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,698 INFO:Parameter: layer4.2.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,698 INFO:Parameter: layer4.2.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,698 INFO:Parameter: layer4.2.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,699 INFO:Parameter: layer4.2.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,699 INFO:Parameter: layer4.1.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,699 INFO:Parameter: layer4.1.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,700 INFO:Parameter: layer4.1.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,700 INFO:Parameter: layer4.1.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,700 INFO:Parameter: layer4.1.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,700 INFO:Parameter: layer4.1.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,701 INFO:Parameter: layer4.1.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,701 INFO:Parameter: layer4.1.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,701 INFO:Parameter: layer4.1.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,702 INFO:Parameter: layer4.0.downsample.1.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,702 INFO:Parameter: layer4.0.downsample.1.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,703 INFO:Parameter: layer4.0.downsample.0.weight size: torch.Size([2048, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,703 INFO:Parameter: layer4.0.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,704 INFO:Parameter: layer4.0.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,704 INFO:Parameter: layer4.0.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,704 INFO:Parameter: layer4.0.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,704 INFO:Parameter: layer4.0.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,705 INFO:Parameter: layer4.0.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,705 INFO:Parameter: layer4.0.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,705 INFO:Parameter: layer4.0.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,706 INFO:Parameter: layer4.0.conv1.weight size: torch.Size([512, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,706 INFO:Parameter: layer3.5.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,706 INFO:Parameter: layer3.5.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,707 INFO:Parameter: layer3.5.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,708 INFO:Parameter: layer3.5.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,708 INFO:Parameter: layer3.5.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,708 INFO:Parameter: layer3.5.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,708 INFO:Parameter: layer3.5.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,708 INFO:Parameter: layer3.5.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,708 INFO:Parameter: layer3.5.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,709 INFO:Parameter: layer3.4.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,709 INFO:Parameter: layer3.4.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,709 INFO:Parameter: layer3.4.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,710 INFO:Parameter: layer3.4.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,710 INFO:Parameter: layer3.4.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,710 INFO:Parameter: layer3.4.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,710 INFO:Parameter: layer3.4.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,711 INFO:Parameter: layer3.4.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,711 INFO:Parameter: layer3.4.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,711 INFO:Parameter: layer3.3.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,712 INFO:Parameter: layer3.3.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,713 INFO:Parameter: layer3.3.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,713 INFO:Parameter: layer3.3.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,713 INFO:Parameter: layer3.3.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,713 INFO:Parameter: layer3.3.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,714 INFO:Parameter: layer3.3.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,714 INFO:Parameter: layer3.3.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,714 INFO:Parameter: layer3.3.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,714 INFO:Parameter: layer3.2.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,715 INFO:Parameter: layer3.2.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,715 INFO:Parameter: layer3.2.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,715 INFO:Parameter: layer3.2.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,715 INFO:Parameter: layer3.2.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,716 INFO:Parameter: layer3.2.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,716 INFO:Parameter: layer3.2.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,716 INFO:Parameter: layer3.2.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,717 INFO:Parameter: layer3.2.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,718 INFO:Parameter: layer3.1.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,718 INFO:Parameter: layer3.1.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,718 INFO:Parameter: layer3.1.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,719 INFO:Parameter: layer3.1.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,719 INFO:Parameter: layer3.1.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,719 INFO:Parameter: layer3.1.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,719 INFO:Parameter: layer3.1.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,719 INFO:Parameter: layer3.1.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,719 INFO:Parameter: layer3.1.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,720 INFO:Parameter: layer3.0.downsample.1.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,720 INFO:Parameter: layer3.0.downsample.1.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,721 INFO:Parameter: layer3.0.downsample.0.weight size: torch.Size([1024, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,721 INFO:Parameter: layer3.0.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,721 INFO:Parameter: layer3.0.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,721 INFO:Parameter: layer3.0.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,721 INFO:Parameter: layer3.0.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,721 INFO:Parameter: layer3.0.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,722 INFO:Parameter: layer3.0.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,722 INFO:Parameter: layer3.0.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,722 INFO:Parameter: layer3.0.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,722 INFO:Parameter: layer3.0.conv1.weight size: torch.Size([256, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,722 INFO:Parameter: layer2.3.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,723 INFO:Parameter: layer2.3.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,723 INFO:Parameter: layer2.3.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,724 INFO:Parameter: layer2.3.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,724 INFO:Parameter: layer2.3.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,724 INFO:Parameter: layer2.3.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,724 INFO:Parameter: layer2.3.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,724 INFO:Parameter: layer2.3.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,725 INFO:Parameter: layer2.3.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,726 INFO:Parameter: layer2.2.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,726 INFO:Parameter: layer2.2.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,726 INFO:Parameter: layer2.2.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,726 INFO:Parameter: layer2.2.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,726 INFO:Parameter: layer2.2.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,726 INFO:Parameter: layer2.2.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,727 INFO:Parameter: layer2.2.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,728 INFO:Parameter: layer2.2.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,729 INFO:Parameter: layer2.2.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,730 INFO:Parameter: layer2.1.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,730 INFO:Parameter: layer2.1.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,730 INFO:Parameter: layer2.1.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,730 INFO:Parameter: layer2.1.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,730 INFO:Parameter: layer2.1.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,730 INFO:Parameter: layer2.1.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,731 INFO:Parameter: layer2.1.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,731 INFO:Parameter: layer2.1.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,732 INFO:Parameter: layer2.1.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,732 INFO:Parameter: layer2.0.downsample.1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,732 INFO:Parameter: layer2.0.downsample.1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,732 INFO:Parameter: layer2.0.downsample.0.weight size: torch.Size([512, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,732 INFO:Parameter: layer2.0.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,732 INFO:Parameter: layer2.0.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,733 INFO:Parameter: layer2.0.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,733 INFO:Parameter: layer2.0.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,733 INFO:Parameter: layer2.0.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,734 INFO:Parameter: layer2.0.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,734 INFO:Parameter: layer2.0.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,734 INFO:Parameter: layer2.0.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,734 INFO:Parameter: layer2.0.conv1.weight size: torch.Size([128, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,735 INFO:Parameter: layer1.2.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,735 INFO:Parameter: layer1.2.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,735 INFO:Parameter: layer1.2.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,736 INFO:Parameter: layer1.2.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,736 INFO:Parameter: layer1.2.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,736 INFO:Parameter: layer1.2.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,736 INFO:Parameter: layer1.2.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,736 INFO:Parameter: layer1.2.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,737 INFO:Parameter: layer1.2.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,737 INFO:Parameter: layer1.1.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,738 INFO:Parameter: layer1.1.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,738 INFO:Parameter: layer1.1.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,739 INFO:Parameter: layer1.1.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,739 INFO:Parameter: layer1.1.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,740 INFO:Parameter: layer1.1.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,740 INFO:Parameter: layer1.1.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,740 INFO:Parameter: layer1.1.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,740 INFO:Parameter: layer1.1.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,740 INFO:Parameter: layer1.0.downsample.1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,740 INFO:Parameter: layer1.0.downsample.1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,741 INFO:Parameter: layer1.0.downsample.0.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,742 INFO:Parameter: layer1.0.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,742 INFO:Parameter: layer1.0.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,742 INFO:Parameter: layer1.0.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,742 INFO:Parameter: layer1.0.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,742 INFO:Parameter: layer1.0.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,743 INFO:Parameter: layer1.0.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,743 INFO:Parameter: layer1.0.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,744 INFO:Parameter: layer1.0.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,744 INFO:Parameter: layer1.0.conv1.weight size: torch.Size([64, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,744 INFO:Parameter: bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,744 INFO:Parameter: bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,744 INFO:Parameter: conv1.weight size: torch.Size([64, 3, 7, 7])ready to comm
+2022-05-12 14:45:55,745 INFO:backward pass is done, wait for comm
+2022-05-12 14:45:55,791 INFO:Comm finished
+2022-05-12 14:45:55,792 INFO:BatchIdx: 7 TrainLoss: 4.040109
+2022-05-12 14:45:55,799 INFO:Parameter: fc.bias size: torch.Size([1000])ready to comm
+2022-05-12 14:45:55,799 INFO:Parameter: fc.weight size: torch.Size([1000, 2048])ready to comm
+2022-05-12 14:45:55,799 INFO:Parameter: layer4.2.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,800 INFO:Parameter: layer4.2.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,800 INFO:Parameter: layer4.2.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,800 INFO:Parameter: layer4.2.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,800 INFO:Parameter: layer4.2.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,801 INFO:Parameter: layer4.2.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,801 INFO:Parameter: layer4.2.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,801 INFO:Parameter: layer4.2.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,802 INFO:Parameter: layer4.2.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,802 INFO:Parameter: layer4.1.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,802 INFO:Parameter: layer4.1.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,802 INFO:Parameter: layer4.1.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,802 INFO:Parameter: layer4.1.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,803 INFO:Parameter: layer4.1.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,803 INFO:Parameter: layer4.1.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,803 INFO:Parameter: layer4.1.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,803 INFO:Parameter: layer4.1.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,803 INFO:Parameter: layer4.1.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,803 INFO:Parameter: layer4.0.downsample.1.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,803 INFO:Parameter: layer4.0.downsample.1.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,804 INFO:Parameter: layer4.0.downsample.0.weight size: torch.Size([2048, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,804 INFO:Parameter: layer4.0.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,805 INFO:Parameter: layer4.0.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,805 INFO:Parameter: layer4.0.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,805 INFO:Parameter: layer4.0.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,805 INFO:Parameter: layer4.0.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,805 INFO:Parameter: layer4.0.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,805 INFO:Parameter: layer4.0.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,805 INFO:Parameter: layer4.0.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,806 INFO:Parameter: layer4.0.conv1.weight size: torch.Size([512, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,807 INFO:Parameter: layer3.5.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,807 INFO:Parameter: layer3.5.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,807 INFO:Parameter: layer3.5.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,807 INFO:Parameter: layer3.5.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,807 INFO:Parameter: layer3.5.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,807 INFO:Parameter: layer3.5.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,808 INFO:Parameter: layer3.5.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,809 INFO:Parameter: layer3.5.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,810 INFO:Parameter: layer3.5.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,811 INFO:Parameter: layer3.4.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,811 INFO:Parameter: layer3.4.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,811 INFO:Parameter: layer3.4.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,811 INFO:Parameter: layer3.4.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,811 INFO:Parameter: layer3.4.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,811 INFO:Parameter: layer3.4.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,812 INFO:Parameter: layer3.4.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,813 INFO:Parameter: layer3.4.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,813 INFO:Parameter: layer3.4.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,813 INFO:Parameter: layer3.3.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,813 INFO:Parameter: layer3.3.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,814 INFO:Parameter: layer3.3.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,814 INFO:Parameter: layer3.3.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,815 INFO:Parameter: layer3.3.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,815 INFO:Parameter: layer3.3.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,815 INFO:Parameter: layer3.3.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,815 INFO:Parameter: layer3.3.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,815 INFO:Parameter: layer3.3.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,816 INFO:Parameter: layer3.2.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,816 INFO:Parameter: layer3.2.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,816 INFO:Parameter: layer3.2.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,817 INFO:Parameter: layer3.2.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,817 INFO:Parameter: layer3.2.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,817 INFO:Parameter: layer3.2.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,817 INFO:Parameter: layer3.2.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,818 INFO:Parameter: layer3.2.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,818 INFO:Parameter: layer3.2.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,818 INFO:Parameter: layer3.1.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,819 INFO:Parameter: layer3.1.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,819 INFO:Parameter: layer3.1.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,820 INFO:Parameter: layer3.1.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,820 INFO:Parameter: layer3.1.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,820 INFO:Parameter: layer3.1.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,821 INFO:Parameter: layer3.1.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,821 INFO:Parameter: layer3.1.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,821 INFO:Parameter: layer3.1.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,821 INFO:Parameter: layer3.0.downsample.1.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,821 INFO:Parameter: layer3.0.downsample.1.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,821 INFO:Parameter: layer3.0.downsample.0.weight size: torch.Size([1024, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,822 INFO:Parameter: layer3.0.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,822 INFO:Parameter: layer3.0.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,823 INFO:Parameter: layer3.0.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,823 INFO:Parameter: layer3.0.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,823 INFO:Parameter: layer3.0.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,823 INFO:Parameter: layer3.0.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,823 INFO:Parameter: layer3.0.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,823 INFO:Parameter: layer3.0.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,824 INFO:Parameter: layer3.0.conv1.weight size: torch.Size([256, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,825 INFO:Parameter: layer2.3.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,825 INFO:Parameter: layer2.3.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,825 INFO:Parameter: layer2.3.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,825 INFO:Parameter: layer2.3.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,825 INFO:Parameter: layer2.3.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,825 INFO:Parameter: layer2.3.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,826 INFO:Parameter: layer2.3.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,826 INFO:Parameter: layer2.3.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,827 INFO:Parameter: layer2.3.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,827 INFO:Parameter: layer2.2.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,827 INFO:Parameter: layer2.2.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,827 INFO:Parameter: layer2.2.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,827 INFO:Parameter: layer2.2.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,828 INFO:Parameter: layer2.2.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,828 INFO:Parameter: layer2.2.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,829 INFO:Parameter: layer2.2.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,829 INFO:Parameter: layer2.2.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,830 INFO:Parameter: layer2.2.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,830 INFO:Parameter: layer2.1.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,831 INFO:Parameter: layer2.1.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,831 INFO:Parameter: layer2.1.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,831 INFO:Parameter: layer2.1.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,831 INFO:Parameter: layer2.1.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,831 INFO:Parameter: layer2.1.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,831 INFO:Parameter: layer2.1.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,831 INFO:Parameter: layer2.1.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,832 INFO:Parameter: layer2.1.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,833 INFO:Parameter: layer2.0.downsample.1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,833 INFO:Parameter: layer2.0.downsample.1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,833 INFO:Parameter: layer2.0.downsample.0.weight size: torch.Size([512, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,833 INFO:Parameter: layer2.0.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,834 INFO:Parameter: layer2.0.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,834 INFO:Parameter: layer2.0.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,834 INFO:Parameter: layer2.0.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,834 INFO:Parameter: layer2.0.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,835 INFO:Parameter: layer2.0.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,835 INFO:Parameter: layer2.0.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,835 INFO:Parameter: layer2.0.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,835 INFO:Parameter: layer2.0.conv1.weight size: torch.Size([128, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,836 INFO:Parameter: layer1.2.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,836 INFO:Parameter: layer1.2.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,836 INFO:Parameter: layer1.2.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,836 INFO:Parameter: layer1.2.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,836 INFO:Parameter: layer1.2.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,837 INFO:Parameter: layer1.2.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,837 INFO:Parameter: layer1.2.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,838 INFO:Parameter: layer1.2.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,838 INFO:Parameter: layer1.2.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,838 INFO:Parameter: layer1.1.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,838 INFO:Parameter: layer1.1.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,839 INFO:Parameter: layer1.1.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,839 INFO:Parameter: layer1.1.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,839 INFO:Parameter: layer1.1.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,840 INFO:Parameter: layer1.1.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,840 INFO:Parameter: layer1.1.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,840 INFO:Parameter: layer1.1.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,841 INFO:Parameter: layer1.1.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,841 INFO:Parameter: layer1.0.downsample.1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,841 INFO:Parameter: layer1.0.downsample.1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,841 INFO:Parameter: layer1.0.downsample.0.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,841 INFO:Parameter: layer1.0.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,842 INFO:Parameter: layer1.0.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,842 INFO:Parameter: layer1.0.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,843 INFO:Parameter: layer1.0.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,843 INFO:Parameter: layer1.0.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,843 INFO:Parameter: layer1.0.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,843 INFO:Parameter: layer1.0.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,844 INFO:Parameter: layer1.0.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,844 INFO:Parameter: layer1.0.conv1.weight size: torch.Size([64, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,845 INFO:Parameter: bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,845 INFO:Parameter: bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,845 INFO:Parameter: conv1.weight size: torch.Size([64, 3, 7, 7])ready to comm
+2022-05-12 14:45:55,845 INFO:backward pass is done, wait for comm
+2022-05-12 14:45:55,893 INFO:Comm finished
+2022-05-12 14:45:55,895 INFO:BatchIdx: 8 TrainLoss: 3.923850
+2022-05-12 14:45:55,902 INFO:Parameter: fc.bias size: torch.Size([1000])ready to comm
+2022-05-12 14:45:55,902 INFO:Parameter: fc.weight size: torch.Size([1000, 2048])ready to comm
+2022-05-12 14:45:55,902 INFO:Parameter: layer4.2.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,903 INFO:Parameter: layer4.2.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,903 INFO:Parameter: layer4.2.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,904 INFO:Parameter: layer4.2.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,904 INFO:Parameter: layer4.2.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,904 INFO:Parameter: layer4.2.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,904 INFO:Parameter: layer4.2.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,904 INFO:Parameter: layer4.2.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,904 INFO:Parameter: layer4.2.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,905 INFO:Parameter: layer4.1.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,905 INFO:Parameter: layer4.1.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,906 INFO:Parameter: layer4.1.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,906 INFO:Parameter: layer4.1.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,906 INFO:Parameter: layer4.1.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,906 INFO:Parameter: layer4.1.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,906 INFO:Parameter: layer4.1.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,907 INFO:Parameter: layer4.1.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,907 INFO:Parameter: layer4.1.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:55,907 INFO:Parameter: layer4.0.downsample.1.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,908 INFO:Parameter: layer4.0.downsample.1.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,909 INFO:Parameter: layer4.0.downsample.0.weight size: torch.Size([2048, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,909 INFO:Parameter: layer4.0.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,909 INFO:Parameter: layer4.0.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:55,909 INFO:Parameter: layer4.0.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,910 INFO:Parameter: layer4.0.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,910 INFO:Parameter: layer4.0.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,910 INFO:Parameter: layer4.0.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:55,910 INFO:Parameter: layer4.0.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,911 INFO:Parameter: layer4.0.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,911 INFO:Parameter: layer4.0.conv1.weight size: torch.Size([512, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,911 INFO:Parameter: layer3.5.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,912 INFO:Parameter: layer3.5.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,912 INFO:Parameter: layer3.5.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,912 INFO:Parameter: layer3.5.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,913 INFO:Parameter: layer3.5.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,913 INFO:Parameter: layer3.5.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,913 INFO:Parameter: layer3.5.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,914 INFO:Parameter: layer3.5.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,914 INFO:Parameter: layer3.5.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,914 INFO:Parameter: layer3.4.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,914 INFO:Parameter: layer3.4.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,914 INFO:Parameter: layer3.4.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,914 INFO:Parameter: layer3.4.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,914 INFO:Parameter: layer3.4.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,914 INFO:Parameter: layer3.4.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,915 INFO:Parameter: layer3.4.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,915 INFO:Parameter: layer3.4.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,916 INFO:Parameter: layer3.4.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,916 INFO:Parameter: layer3.3.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,916 INFO:Parameter: layer3.3.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,916 INFO:Parameter: layer3.3.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,916 INFO:Parameter: layer3.3.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,917 INFO:Parameter: layer3.3.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,917 INFO:Parameter: layer3.3.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,918 INFO:Parameter: layer3.3.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,918 INFO:Parameter: layer3.3.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,919 INFO:Parameter: layer3.3.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,919 INFO:Parameter: layer3.2.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,919 INFO:Parameter: layer3.2.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,919 INFO:Parameter: layer3.2.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,920 INFO:Parameter: layer3.2.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,920 INFO:Parameter: layer3.2.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,920 INFO:Parameter: layer3.2.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,921 INFO:Parameter: layer3.2.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,921 INFO:Parameter: layer3.2.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,921 INFO:Parameter: layer3.2.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,921 INFO:Parameter: layer3.1.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,921 INFO:Parameter: layer3.1.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,921 INFO:Parameter: layer3.1.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,922 INFO:Parameter: layer3.1.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,922 INFO:Parameter: layer3.1.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,923 INFO:Parameter: layer3.1.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,924 INFO:Parameter: layer3.1.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,924 INFO:Parameter: layer3.1.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,924 INFO:Parameter: layer3.1.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:55,925 INFO:Parameter: layer3.0.downsample.1.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,925 INFO:Parameter: layer3.0.downsample.1.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,925 INFO:Parameter: layer3.0.downsample.0.weight size: torch.Size([1024, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,925 INFO:Parameter: layer3.0.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,925 INFO:Parameter: layer3.0.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:55,926 INFO:Parameter: layer3.0.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,926 INFO:Parameter: layer3.0.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,927 INFO:Parameter: layer3.0.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,927 INFO:Parameter: layer3.0.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:55,927 INFO:Parameter: layer3.0.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,927 INFO:Parameter: layer3.0.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,927 INFO:Parameter: layer3.0.conv1.weight size: torch.Size([256, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,927 INFO:Parameter: layer2.3.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,928 INFO:Parameter: layer2.3.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,928 INFO:Parameter: layer2.3.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,929 INFO:Parameter: layer2.3.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,929 INFO:Parameter: layer2.3.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,929 INFO:Parameter: layer2.3.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,929 INFO:Parameter: layer2.3.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,929 INFO:Parameter: layer2.3.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,930 INFO:Parameter: layer2.3.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,930 INFO:Parameter: layer2.2.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,930 INFO:Parameter: layer2.2.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,931 INFO:Parameter: layer2.2.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,931 INFO:Parameter: layer2.2.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,931 INFO:Parameter: layer2.2.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,931 INFO:Parameter: layer2.2.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,931 INFO:Parameter: layer2.2.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,931 INFO:Parameter: layer2.2.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,932 INFO:Parameter: layer2.2.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,933 INFO:Parameter: layer2.1.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,934 INFO:Parameter: layer2.1.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,934 INFO:Parameter: layer2.1.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,934 INFO:Parameter: layer2.1.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,934 INFO:Parameter: layer2.1.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,935 INFO:Parameter: layer2.1.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,935 INFO:Parameter: layer2.1.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,935 INFO:Parameter: layer2.1.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,936 INFO:Parameter: layer2.1.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:55,936 INFO:Parameter: layer2.0.downsample.1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,936 INFO:Parameter: layer2.0.downsample.1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,936 INFO:Parameter: layer2.0.downsample.0.weight size: torch.Size([512, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,936 INFO:Parameter: layer2.0.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,937 INFO:Parameter: layer2.0.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:55,937 INFO:Parameter: layer2.0.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:55,938 INFO:Parameter: layer2.0.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,938 INFO:Parameter: layer2.0.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,939 INFO:Parameter: layer2.0.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:55,939 INFO:Parameter: layer2.0.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,940 INFO:Parameter: layer2.0.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:55,940 INFO:Parameter: layer2.0.conv1.weight size: torch.Size([128, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,940 INFO:Parameter: layer1.2.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,940 INFO:Parameter: layer1.2.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,940 INFO:Parameter: layer1.2.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,941 INFO:Parameter: layer1.2.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,941 INFO:Parameter: layer1.2.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,941 INFO:Parameter: layer1.2.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,942 INFO:Parameter: layer1.2.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,942 INFO:Parameter: layer1.2.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,942 INFO:Parameter: layer1.2.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,942 INFO:Parameter: layer1.1.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,942 INFO:Parameter: layer1.1.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,943 INFO:Parameter: layer1.1.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,943 INFO:Parameter: layer1.1.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,943 INFO:Parameter: layer1.1.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,943 INFO:Parameter: layer1.1.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,943 INFO:Parameter: layer1.1.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,943 INFO:Parameter: layer1.1.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,943 INFO:Parameter: layer1.1.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:55,944 INFO:Parameter: layer1.0.downsample.1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,944 INFO:Parameter: layer1.0.downsample.1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,945 INFO:Parameter: layer1.0.downsample.0.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,945 INFO:Parameter: layer1.0.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,945 INFO:Parameter: layer1.0.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:55,945 INFO:Parameter: layer1.0.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,945 INFO:Parameter: layer1.0.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,945 INFO:Parameter: layer1.0.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,946 INFO:Parameter: layer1.0.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:55,947 INFO:Parameter: layer1.0.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,947 INFO:Parameter: layer1.0.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,947 INFO:Parameter: layer1.0.conv1.weight size: torch.Size([64, 64, 1, 1])ready to comm
+2022-05-12 14:45:55,947 INFO:Parameter: bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,947 INFO:Parameter: bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:55,947 INFO:Parameter: conv1.weight size: torch.Size([64, 3, 7, 7])ready to comm
+2022-05-12 14:45:55,948 INFO:backward pass is done, wait for comm
+2022-05-12 14:45:55,996 INFO:Comm finished
+2022-05-12 14:45:55,998 INFO:BatchIdx: 9 TrainLoss: 3.812130
+2022-05-12 14:45:55,998 INFO:Running benchmark...
+2022-05-12 14:45:56,005 INFO:Parameter: fc.bias size: torch.Size([1000])ready to comm
+2022-05-12 14:45:56,005 INFO:Parameter: fc.weight size: torch.Size([1000, 2048])ready to comm
+2022-05-12 14:45:56,007 INFO:Parameter: layer4.2.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:56,007 INFO:Parameter: layer4.2.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:56,007 INFO:Parameter: layer4.2.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:56,007 INFO:Parameter: layer4.2.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,007 INFO:Parameter: layer4.2.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,007 INFO:Parameter: layer4.2.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:56,009 INFO:Parameter: layer4.2.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,009 INFO:Parameter: layer4.2.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,009 INFO:Parameter: layer4.2.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:56,009 INFO:Parameter: layer4.1.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:56,009 INFO:Parameter: layer4.1.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:56,009 INFO:Parameter: layer4.1.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:56,009 INFO:Parameter: layer4.1.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,010 INFO:Parameter: layer4.1.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,011 INFO:Parameter: layer4.1.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:56,012 INFO:Parameter: layer4.1.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,012 INFO:Parameter: layer4.1.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,012 INFO:Parameter: layer4.1.conv1.weight size: torch.Size([512, 2048, 1, 1])ready to comm
+2022-05-12 14:45:56,012 INFO:Parameter: layer4.0.downsample.1.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:56,013 INFO:Parameter: layer4.0.downsample.1.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:56,013 INFO:Parameter: layer4.0.downsample.0.weight size: torch.Size([2048, 1024, 1, 1])ready to comm
+2022-05-12 14:45:56,013 INFO:Parameter: layer4.0.bn3.weight size: torch.Size([2048])ready to comm
+2022-05-12 14:45:56,014 INFO:Parameter: layer4.0.bn3.bias size: torch.Size([2048])ready to comm
+2022-05-12 14:45:56,014 INFO:Parameter: layer4.0.conv3.weight size: torch.Size([2048, 512, 1, 1])ready to comm
+2022-05-12 14:45:56,014 INFO:Parameter: layer4.0.bn2.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,014 INFO:Parameter: layer4.0.bn2.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,015 INFO:Parameter: layer4.0.conv2.weight size: torch.Size([512, 512, 3, 3])ready to comm
+2022-05-12 14:45:56,015 INFO:Parameter: layer4.0.bn1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,015 INFO:Parameter: layer4.0.bn1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,016 INFO:Parameter: layer4.0.conv1.weight size: torch.Size([512, 1024, 1, 1])ready to comm
+2022-05-12 14:45:56,016 INFO:Parameter: layer3.5.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,017 INFO:Parameter: layer3.5.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,017 INFO:Parameter: layer3.5.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:56,017 INFO:Parameter: layer3.5.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,017 INFO:Parameter: layer3.5.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,017 INFO:Parameter: layer3.5.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:56,017 INFO:Parameter: layer3.5.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,018 INFO:Parameter: layer3.5.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,018 INFO:Parameter: layer3.5.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:56,018 INFO:Parameter: layer3.4.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,019 INFO:Parameter: layer3.4.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,019 INFO:Parameter: layer3.4.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:56,019 INFO:Parameter: layer3.4.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,019 INFO:Parameter: layer3.4.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,020 INFO:Parameter: layer3.4.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:56,020 INFO:Parameter: layer3.4.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,020 INFO:Parameter: layer3.4.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,021 INFO:Parameter: layer3.4.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:56,021 INFO:Parameter: layer3.3.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,021 INFO:Parameter: layer3.3.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,022 INFO:Parameter: layer3.3.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:56,023 INFO:Parameter: layer3.3.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,023 INFO:Parameter: layer3.3.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,023 INFO:Parameter: layer3.3.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:56,023 INFO:Parameter: layer3.3.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,023 INFO:Parameter: layer3.3.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,023 INFO:Parameter: layer3.3.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:56,023 INFO:Parameter: layer3.2.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,023 INFO:Parameter: layer3.2.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,024 INFO:Parameter: layer3.2.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:56,024 INFO:Parameter: layer3.2.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,024 INFO:Parameter: layer3.2.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,024 INFO:Parameter: layer3.2.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:56,024 INFO:Parameter: layer3.2.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,024 INFO:Parameter: layer3.2.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,024 INFO:Parameter: layer3.2.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:56,025 INFO:Parameter: layer3.1.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,025 INFO:Parameter: layer3.1.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,025 INFO:Parameter: layer3.1.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:56,025 INFO:Parameter: layer3.1.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,026 INFO:Parameter: layer3.1.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,027 INFO:Parameter: layer3.1.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:56,028 INFO:Parameter: layer3.1.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,028 INFO:Parameter: layer3.1.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,028 INFO:Parameter: layer3.1.conv1.weight size: torch.Size([256, 1024, 1, 1])ready to comm
+2022-05-12 14:45:56,028 INFO:Parameter: layer3.0.downsample.1.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,028 INFO:Parameter: layer3.0.downsample.1.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,029 INFO:Parameter: layer3.0.downsample.0.weight size: torch.Size([1024, 512, 1, 1])ready to comm
+2022-05-12 14:45:56,029 INFO:Parameter: layer3.0.bn3.weight size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,030 INFO:Parameter: layer3.0.bn3.bias size: torch.Size([1024])ready to comm
+2022-05-12 14:45:56,030 INFO:Parameter: layer3.0.conv3.weight size: torch.Size([1024, 256, 1, 1])ready to comm
+2022-05-12 14:45:56,030 INFO:Parameter: layer3.0.bn2.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,030 INFO:Parameter: layer3.0.bn2.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,030 INFO:Parameter: layer3.0.conv2.weight size: torch.Size([256, 256, 3, 3])ready to comm
+2022-05-12 14:45:56,030 INFO:Parameter: layer3.0.bn1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,031 INFO:Parameter: layer3.0.bn1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,032 INFO:Parameter: layer3.0.conv1.weight size: torch.Size([256, 512, 1, 1])ready to comm
+2022-05-12 14:45:56,032 INFO:Parameter: layer2.3.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,033 INFO:Parameter: layer2.3.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,033 INFO:Parameter: layer2.3.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:56,033 INFO:Parameter: layer2.3.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,033 INFO:Parameter: layer2.3.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,034 INFO:Parameter: layer2.3.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:56,035 INFO:Parameter: layer2.3.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,035 INFO:Parameter: layer2.3.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,035 INFO:Parameter: layer2.3.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:56,035 INFO:Parameter: layer2.2.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,035 INFO:Parameter: layer2.2.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,035 INFO:Parameter: layer2.2.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:56,036 INFO:Parameter: layer2.2.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,036 INFO:Parameter: layer2.2.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,037 INFO:Parameter: layer2.2.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:56,038 INFO:Parameter: layer2.2.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,038 INFO:Parameter: layer2.2.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,038 INFO:Parameter: layer2.2.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:56,038 INFO:Parameter: layer2.1.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,039 INFO:Parameter: layer2.1.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,039 INFO:Parameter: layer2.1.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:56,039 INFO:Parameter: layer2.1.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,039 INFO:Parameter: layer2.1.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,040 INFO:Parameter: layer2.1.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:56,040 INFO:Parameter: layer2.1.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,040 INFO:Parameter: layer2.1.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,040 INFO:Parameter: layer2.1.conv1.weight size: torch.Size([128, 512, 1, 1])ready to comm
+2022-05-12 14:45:56,041 INFO:Parameter: layer2.0.downsample.1.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,041 INFO:Parameter: layer2.0.downsample.1.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,041 INFO:Parameter: layer2.0.downsample.0.weight size: torch.Size([512, 256, 1, 1])ready to comm
+2022-05-12 14:45:56,042 INFO:Parameter: layer2.0.bn3.weight size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,043 INFO:Parameter: layer2.0.bn3.bias size: torch.Size([512])ready to comm
+2022-05-12 14:45:56,043 INFO:Parameter: layer2.0.conv3.weight size: torch.Size([512, 128, 1, 1])ready to comm
+2022-05-12 14:45:56,043 INFO:Parameter: layer2.0.bn2.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,043 INFO:Parameter: layer2.0.bn2.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,044 INFO:Parameter: layer2.0.conv2.weight size: torch.Size([128, 128, 3, 3])ready to comm
+2022-05-12 14:45:56,044 INFO:Parameter: layer2.0.bn1.weight size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,044 INFO:Parameter: layer2.0.bn1.bias size: torch.Size([128])ready to comm
+2022-05-12 14:45:56,044 INFO:Parameter: layer2.0.conv1.weight size: torch.Size([128, 256, 1, 1])ready to comm
+2022-05-12 14:45:56,045 INFO:Parameter: layer1.2.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,045 INFO:Parameter: layer1.2.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,045 INFO:Parameter: layer1.2.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:56,045 INFO:Parameter: layer1.2.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,045 INFO:Parameter: layer1.2.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,046 INFO:Parameter: layer1.2.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:56,046 INFO:Parameter: layer1.2.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,047 INFO:Parameter: layer1.2.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,047 INFO:Parameter: layer1.2.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:56,048 INFO:Parameter: layer1.1.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,048 INFO:Parameter: layer1.1.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,048 INFO:Parameter: layer1.1.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:56,048 INFO:Parameter: layer1.1.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,049 INFO:Parameter: layer1.1.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,050 INFO:Parameter: layer1.1.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:56,050 INFO:Parameter: layer1.1.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,050 INFO:Parameter: layer1.1.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,050 INFO:Parameter: layer1.1.conv1.weight size: torch.Size([64, 256, 1, 1])ready to comm
+2022-05-12 14:45:56,050 INFO:Parameter: layer1.0.downsample.1.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,050 INFO:Parameter: layer1.0.downsample.1.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,051 INFO:Parameter: layer1.0.downsample.0.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:56,052 INFO:Parameter: layer1.0.bn3.weight size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,053 INFO:Parameter: layer1.0.bn3.bias size: torch.Size([256])ready to comm
+2022-05-12 14:45:56,053 INFO:Parameter: layer1.0.conv3.weight size: torch.Size([256, 64, 1, 1])ready to comm
+2022-05-12 14:45:56,053 INFO:Parameter: layer1.0.bn2.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,053 INFO:Parameter: layer1.0.bn2.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,053 INFO:Parameter: layer1.0.conv2.weight size: torch.Size([64, 64, 3, 3])ready to comm
+2022-05-12 14:45:56,054 INFO:Parameter: layer1.0.bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,054 INFO:Parameter: layer1.0.bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,054 INFO:Parameter: layer1.0.conv1.weight size: torch.Size([64, 64, 1, 1])ready to comm
+2022-05-12 14:45:56,055 INFO:Parameter: bn1.weight size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,055 INFO:Parameter: bn1.bias size: torch.Size([64])ready to comm
+2022-05-12 14:45:56,055 INFO:Parameter: conv1.weight size: torch.Size([64, 3, 7, 7])ready to comm
+2022-05-12 14:45:56,055 INFO:backward pass is done, wait for comm
+2022-05-12 14:45:56,100 INFO:Comm finished
+2022-05-12 14:45:56,101 INFO:BatchIdx: 10 TrainLoss: 3.759141
+2022-05-12 14:45:56,102 INFO:Iter #0: 0.10323 sec GPU
+2022-05-12 14:45:56,102 INFO:Img/sec per GPU: 310.0 +-0.0
+2022-05-12 14:45:56,102 INFO:Total img/sec on 1 GPU(s): 310.0 +-0.0

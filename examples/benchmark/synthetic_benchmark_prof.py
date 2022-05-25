@@ -12,7 +12,9 @@ from torchvision import models
 import numpy as np
 import bagua.torch_api as bagua
 import logging
-
+from datetime import datetime
+import time
+from torch.profiler import profile, record_function, ProfilerActivity
 
 
 # Benchmark settings
@@ -27,7 +29,7 @@ parser.add_argument("--batch-size", type=int, default=32, help="input batch size
 parser.add_argument(
     "--num-warmup-batches",
     type=int,
-    default=0,
+    default=10,
     help="number of warm-up batches that don't count towards benchmark",
 )
 parser.add_argument(
@@ -213,16 +215,28 @@ timeit.timeit(benchmark_step, number=args.num_warmup_batches)
 # Benchmark
 logging.info("Running benchmark...")
 img_secs = []
-for x in range(args.num_iters):
-    time = timeit.timeit(benchmark_step, number=args.num_batches_per_iter)
-    img_sec = args.batch_size * args.num_batches_per_iter / time
-    logging.info(
-        "Iter #%d: %.5f sec %s" % (x, time, device)
-    )
-#    logging.info(
-#       "Iter #%d: %.1f img/sec %s" % (x, img_sec * bagua.get_world_size(), device)
-#    )
-    img_secs.append(img_sec)
+
+with torch.profiler.profile(
+    schedule=torch.profiler.schedule(wait=1, warmup=1, active=1, repeat=1),
+    on_trace_ready=torch.profiler.tensorboard_trace_handler('./temp_log/' +
+        # (f'deepspeed_gpt3{args.model_size}_zero' if not args.logdir else args.logdir)),
+        (f"{datetime.now().strftime('%m-%d-%H-%M')}")
+        ),
+    record_shapes=True,
+    profile_memory=True,
+    with_stack=True
+) as prof:
+    for x in range(args.num_iters):
+        time = timeit.timeit(benchmark_step, number=args.num_batches_per_iter)
+        prof.step()
+        img_sec = args.batch_size * args.num_batches_per_iter / time
+        logging.info(
+            "Iter #%d: %.5f sec %s" % (x, time, device)
+        )
+    #    logging.info(
+    #       "Iter #%d: %.1f img/sec %s" % (x, img_sec * bagua.get_world_size(), device)
+    #    )
+        img_secs.append(img_sec)
 
 # Results
 img_sec_mean = np.mean(img_secs)
