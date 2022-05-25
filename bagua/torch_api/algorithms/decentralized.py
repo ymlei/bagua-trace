@@ -7,6 +7,7 @@ from bagua.torch_api.communication import BaguaProcessGroup
 from bagua.torch_api.contrib.fuse.optimizer import is_fused_optimizer
 from typing import List
 import torch
+import logging
 
 
 class DecentralizedAlgorithmImpl(AlgorithmImpl):
@@ -65,6 +66,11 @@ class DecentralizedAlgorithmImpl(AlgorithmImpl):
             if self._should_communicate(bagua_ddp):
                 for tensor in self.tensors:
                     tensor.bagua_mark_communication_ready()
+                    logging.info(
+                    "Parameter: {} is ready to comm".format(
+                        tensor.size(),
+                        )
+                    )
 
         return hook
 
@@ -77,7 +83,9 @@ class DecentralizedAlgorithmImpl(AlgorithmImpl):
     def init_post_backward_hook(self, bagua_ddp: BaguaDistributedDataParallel):
         def hook():
             if self._should_communicate(bagua_ddp):
+                logging.info("backward pass is done, wait for comm")
                 bagua_ddp._bagua_backend.wait_pending_comm_ops()
+                logging.info("Comm finished")
 
                 torch.cuda.current_stream().record_event(self.cuda_event)
                 self.cuda_event.synchronize()

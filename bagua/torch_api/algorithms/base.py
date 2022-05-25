@@ -5,6 +5,7 @@ from bagua.torch_api.tensor import BaguaTensor
 from bagua.torch_api.communication import BaguaProcessGroup
 from typing import Any, Callable, Dict, List, Optional
 import torch
+import logging
 
 
 __all__ = ["Algorithm", "AlgorithmImpl"]
@@ -99,6 +100,7 @@ class AlgorithmImpl:
         assert len(self._communication_tensor_names) == len(
             tensors
         ), "tensor names should be unique"
+        #logging.info("Tensor name is %s" % self._communication_tensor_names)
         return tensors
 
     def tensors_to_buckets(
@@ -158,6 +160,12 @@ class AlgorithmImpl:
                     parameter.bagua_backend_tensor().data_ptr()
                     == parameter.grad.data_ptr()
                 ), "bagua backend tensor data_ptr should match parameter grad"
+                logging.info(
+                "Parameter: {} {} is ready to comm".format(
+                    parameter_name,
+                    parameter.size(),
+                    )
+                )
                 parameter.bagua_mark_communication_ready()
 
         return hook
@@ -174,7 +182,9 @@ class AlgorithmImpl:
         """
 
         def hook():
+            logging.info("backward pass is done, wait for comm")
             bagua_ddp._bagua_backend.wait_pending_comm_ops()
+            logging.info("Comm finished")
 
         return hook
 
